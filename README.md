@@ -1,4 +1,4 @@
-#S3Backup
+# S3Backup
 
 Add the following line to crontab to have it run everyday at midnight
 
