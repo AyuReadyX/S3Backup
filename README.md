@@ -2,7 +2,7 @@
 
 Add the following line to crontab to have it run everyday at midnight
 
-"00 00 * * * sh path/to/your/S3Backup.sh"
+"00 00 * * * bash path/to/your/S3Backup.sh"
 
 
 [?] Usage: ./S3Backup.sh [backup_directory] [directory_to_backup] [bucket] [email]
