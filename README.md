@@ -1,15 +1,18 @@
 # S3Backup
+![](https://img.shields.io/badge/S3Backup-bash-green.svg)
 
-Add the following line to crontab to have it run everyday at 2AM
-"0 2 * * * bash path/to/your/S3Backup.sh"
 
 #### Dependencies:
 ```bash
 apt install aws
 ```
 
-
 Make the script executable `chmod +x S3Backup.sh`
+
+
+Add the following line to crontab to have it run everyday at 2AM
+"0 2 * * * bash /path/to/your/S3Backup.sh
+
 
 [?] Usage: S3Backup.sh [backup_directory] [directory_to_backup] [bucket] [email]
 
