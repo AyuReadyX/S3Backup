@@ -2,9 +2,8 @@
 #
 # Backup script for AWS S3 bucket
 #
-# Written by Sharod Richardson June 4, 2019
+# Written by Sharod Richardson June 5, 2019
 
-RETVAL=$?
 BACKUPDIR=$1
 DIRTOBACKUP=$2
 BUCKET=$3
