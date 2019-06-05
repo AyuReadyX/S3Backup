@@ -3,10 +3,15 @@
 Add the following line to crontab to have it run everyday at 2AM
 "0 2 * * * bash path/to/your/S3Backup.sh"
 
-Make the script executable
-"chmod +x S3Backup.sh"
+#### Dependencies:
+```bash
+apt install aws
+```
 
-[?] Usage: ./S3Backup.sh [backup_directory] [directory_to_backup] [bucket] [email]
+
+Make the script executable `chmod +x S3Backup.sh`
+
+[?] Usage: S3Backup.sh [backup_directory] [directory_to_backup] [bucket] [email]
 
         [✙] Param1 <backup_directory>: The directory where the zipped backup is stored.
         [✙] Param2 <directory_to_backup>: The directory that will be zipped.
