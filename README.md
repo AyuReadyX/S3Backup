@@ -3,8 +3,7 @@
 
 00 00 * * * sh path/to/S3Backup.sh
 
-Usage: ./S3Backup.sh <backup_directory> <directory_to_backup>
-<bucket> <email>
+#Usage: ./S3Backup.sh <backup_directory> <directory_to_backup> <bucket> <email>
         
         [✙] Param1 <backup_directory>: The directory where the zipped backup is stored.
         [✙] Param2 <directory_to_backup>: The directory that will be zipped.
