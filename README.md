@@ -1,3 +1,4 @@
+#S3Backup
 1. crontab -e and add the following line to run it everyday at mightnight
 
 00 00 * * * sh path/to/S3Backup.sh
