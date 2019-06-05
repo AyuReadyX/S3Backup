@@ -59,11 +59,11 @@ log_to_syslog(){
 }
 
 if [ $# -ne 4 ]; then
-    echo -e  -e "\t\n[\033[1m\u003F\033[0m] Usage: $0 <backup_directory> <directory_to_backup> <bucket> <email>\n"
-    echo -e  -e "\t[\u2719] Param1 <backup_directory>: The directory where the zipped backup is stored."
-    echo -e  -e "\t[\u2719] Param2 <directory_to_backup>: The directory that will be zipped."
-    echo -e  -e "\t[\u2719] Param3 <bucket>: The S3 bucket that will be uploaded to."
-    echo -e  -e "\t[\u2719] Param4 <email>: The E-mail to send the final status to.\n"
+    echo -e "\t\n[\033[1m\u003F\033[0m] Usage: $0 <backup_directory> <directory_to_backup> <bucket> <email>\n"
+    echo -e "\t[\u2719] Param1 <backup_directory>: The directory where the zipped backup is stored."
+    echo -e "\t[\u2719] Param2 <directory_to_backup>: The directory that will be zipped."
+    echo -e "\t[\u2719] Param3 <bucket>: The S3 bucket that will be uploaded to."
+    echo -e "\t[\u2719] Param4 <email>: The E-mail to send the final status to.\n"
     exit 1
 fi
 
